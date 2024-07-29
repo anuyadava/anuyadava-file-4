@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector in css</title>
+    <link rel="stylesheet" href="stylesheet">
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        header {
+         text-align: center;
+         padding: 10px;
+         background-color: rgb(163, 104, 14);
+
+        }
+header img{
+    width: 160px;
+    height: 150px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+}
+        section{
+            margin: 20px;
+
+        }
+        .project{
+                     background-color: rgb(214, 166, 104);            
+     border: 1px solid rgb(219, 67, 161);
+            margin: 10px;
+            text-align: left;
+            line-height: 200px;
+
+        }
+       
+        
+        
+        #bio, #work{
+            background-color: rgb(65, 180, 117);
+            text-align: left;
+            padding: 15px;
+
+        }
+        footer{
+            background-color: rgb(132, 132, 215);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <img src="https://wallpaperaccess.com/full/684096.jpg" alt="actress">
+        <h1>Your Name</h1>
+                
+        <p>Web developer | Student | Working | Another</p>
+
+    </header>
+    <section id="bio">
+        <h2>About me</h2>
+        <p>[Your biography]</p>
+
+    </section>
+    <section id="work">
+        <h2>My work</h2>
+        <div class="project" id="project1"> project 1</div>
+<div class="project" id="project2"> project 2</div>
+<div class="project" id="project3"> project 3</div>
+        
+    </section>
+    <footer>
+        <p>Contact me at Annuyadav@4.com</p>
+    </footer>
+    
+</body>
+</html>
